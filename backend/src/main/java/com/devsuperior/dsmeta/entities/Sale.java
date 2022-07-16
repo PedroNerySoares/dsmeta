@@ -16,13 +16,13 @@ public class Sale {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long 	id;
-	@Column(name = "seller_name")
+
 	private String 	sellerName;
 	private Integer visited;
 	private Integer deals;
 	private Double 	amount;
 	private LocalDate date;
-	
+	public Sale() {};
 	public Sale(Long id, String sellerName, Integer visited, Integer deals, Double amount, LocalDate date) {
 		super();
 		this.id = id;
