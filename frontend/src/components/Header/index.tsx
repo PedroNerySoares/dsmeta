@@ -7,8 +7,8 @@ function Header() {
         <img src={logo} alt="DSMeta" />
         <h1>DSMeta</h1>
         <p>
-          Desenvolvido por
-          <a href="https://www.instagram.com/devsuperior.ig">@devsuperior.ig</a>
+          Desenvolvido por 
+          <a href="https://www.linkedin.com/in/pedro-nery-8831901b1/" target='_blank'> Pedro Nery</a>
         </p>
       </div>
     </header>
